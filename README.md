@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# نظام إدارة مطعم الساندوتشات والفروع 🥪
+### Sandwich Shop & Branch Management System
 
-# Run and deploy your AI Studio app
+هذا المشروع عبارة عن منصة متكاملة لإدارة مطاعم الساندوتشات، تدعم تعدد الفروع، إدارة الطلبات، ونظام صلاحيات متطور للمسؤولين والموظفين.
 
-This contains everything you need to run your app locally.
+## 🚀 المميزات (Features)
+*   **نظام صلاحيات متطور:** حساب مسؤول (سلطان) للتحكم الكامل، وحسابات خاصة لكل فرع.
+*   **إدارة الفروع:** إضافة وتعديل الفروع وتعيين موظفين مسؤولين لكل فرع من لوحة الإعدادات.
+*   **نظام طلبات متكامل:** سلة مشتريات تدعم الدفع عند الاستلام أو البطاقة، مع ربط الطلبات بالفروع.
+*   **لوحة تحكم (Dashboard):** إحصائيات مباشرة للمبيعات والطلبات والأصناف الأكثر طلباً.
+*   **إدارة القائمة:** إضافة وحذف وتعديل الساندوتشات والوجبات بسهولة.
+*   **نظام تقييمات:** استقبال وتقييم آراء العملاء.
+*   **إعدادات المتجر:** التحكم في أرقام التواصل، ساعات العمل، وروابط التواصل الاجتماعي.
 
-View your app in AI Studio: https://ai.studio/apps/009a6e9e-1611-4690-9568-554792f761e3
+## 🛠 التقنيات المستخدمة (Tech Stack)
+*   **React.js** (Vite)
+*   **TypeScript** (لضمان جودة الكود)
+*   **Tailwind CSS** (للتصميم العصري والاستجابة)
+*   **Lucide React** (للأيقونات)
+*   **Framer Motion** (للتحريك والجمالية)
 
-## Run Locally
+## 💻 التشغيل المحلي (Local Setup)
+1. قم بتحميل المشروع (Clone):
+   ```bash
+   git clone [رابط-المستودع]
+   ```
+2. انتقل لمجلد المشروع:
+   ```bash
+   cd sandwich-shop
+   ```
+3. ثبت المكتبات:
+   ```bash
+   npm install
+   ```
+4. شغل المشروع:
+   ```bash
+   npm run dev
+   ```
 
-**Prerequisites:**  Node.js
+## 🔑 بيانات الدخول للمسؤول (Admin Credentials)
+*   **الاسم:** سلطان
+*   **رقم الجوال:** 0544141303
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## English Summary
+A comprehensive Sandwich Shop Management System built with React and TypeScript. Features include multi-branch management, admin dashboard, order tracking with COD/Card payment options, and dynamic store settings.
+
+### How to Deploy
+The easiest way to deploy this project is via [Vercel](https://vercel.com) or [Netlify](https://netlify.com). Simply connect your GitHub repository and it will auto-deploy.
+
+---
+تم التطوير بواسطة الذكاء الاصطناعي لمساعدة "سلطان" في إدارة مشروعه بنجاح.
